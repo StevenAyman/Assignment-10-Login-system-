@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <!-- Bootstrap style file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Main style file -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="container mt-5 p-5">
+      <div class="login m-auto p-5 text-center">
+        <h1 class="text-info-emphasis mb-4">Smart Login System</h1>
+        <form>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control bg-transparent"
+              id="exampleInputName1"
+              aria-describedby="nameHelp"
+              placeholder="Enter your Name"
+            />
+            <p class="mt-2 text-danger d-none name">Name is invalid</p>
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control bg-transparent"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter your email"
+            />
+            <p class="mt-2 text-danger d-none email">Email is invalid</p>
+          </div>
+          <div class="mb-3">
+            <input
+              type="password"
+              class="form-control bg-transparent"
+              id="exampleInputPassword1"
+              placeholder="Enter your password"
+            />
+            <p class="mt-2 text-danger d-none pass">Password is invalid</p>
+          </div>
+          <p class="message fw-semibold"></p>
+          <button type="button" class="btn btn-outline-info w-100">
+            Sign Up
+          </button>
+        </form>
+        <p class="text-white mt-4">
+          Don't have an account?
+          <a href="./index.html" class="text-white text-decoration-none"
+            >Sign In</a
+          >
+        </p>
+      </div>
+    </header>
+    <!-- Bootstrap JS file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS file -->
+    <script src="./js/signup.js"></script>
+  </body>
+</html>

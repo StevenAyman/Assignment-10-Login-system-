@@ -1,0 +1,30 @@
+body {
+  background-color: #24353f;
+}
+
+header .login {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.39);
+  width: 65%;
+}
+
+header .btn:hover {
+  color: white;
+}
+
+header p a:hover {
+  text-decoration: underline !important;
+}
+
+::placeholder {
+  color: rgb(188, 178, 178) !important;
+}
+
+input {
+  caret-color: white;
+  color: white !important;
+}
+
+/* Home Page */
+nav {
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.39);
+}
